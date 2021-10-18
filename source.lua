@@ -2,7 +2,7 @@ repeat
 	wait()
 until game:IsLoaded()
 
-local OpDeWeg = loadstring(game:HttpGet("https://raw.githubusercontent.com/OpDeWeg/certifiedrealz/main/source%20gui"))()
+local OpDeWeg = loadstring(game:HttpGet("https://raw.githubusercontent.com/OpDeWeg/certifiedrealz/main/source.lua"))()
 local Library = OpDeWeg.new("Certified Realz")
 Library:setTheme("Glow", Color3.fromRGB(0, 191, 255))
 Library:setTheme("TextColor", Color3.fromRGB(0, 0, 255))
